@@ -1,0 +1,101 @@
+h1{
+    text-align: center;
+}
+
+.body{
+    align-items: center;
+    height: 530px;
+    margin: auto;
+    width: 650px;
+    background-color: dimgray;
+    border-radius: 10px;
+}
+
+p{
+    margin-left: 60px;
+    padding: 5px;
+    font-family: fangsong;
+    font-size: 30px;
+    color: #9fd0e7;
+    padding-top: 35px
+}
+
+.display{
+    padding-left: 60px;
+
+}
+
+#screen1{
+    height: 70px;
+    width: 250px;
+    font-size:30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#screen2{
+    height: 70px;
+    width: 250px;
+    font-size:30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#calculation{
+    height: 50px;
+    width: 520px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.none{
+    margin-left: 160px;
+    font-size: 35px;
+    font-family: fangsong;
+    color: #9fd0e7;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#result{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 15px;
+    color: #fff;
+    background-color: #49626e;
+}
+
+#clear{
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 15px;
+    color: #fff;
+    background-color: #49626e;
+}
+
+#clear:hover{
+    border-color: #fff;
+}
+
+#result:hover{
+    border-color: #fff;
+}
+
+#Out{
+    height: 75px;
+    width: 370px;
+    font-size: 50px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 140px;
+    text-align: center;
+}

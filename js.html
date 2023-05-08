@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./js.css">
+    <script src="./js.js" defer></script>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="body">
+        <form>
+            <p>CASIO</p>
+            <div class="display">
+                <input id="screen1" type="number" placeholder="Number 1">
+                <input id="screen2" type="number" placeholder="Number 2"><br>
+        
+            </div>
+            <label class="none" for="calculation">Choose a Calculation</label><br>
+
+            <select name="calculation" id="calculation">
+                <option value="+" >Addition</option>
+                <option value="-" >Subtration</option>
+                <option value="*" >Multiplication</option>
+                <option value="/" >Division</option>
+            </select> 
+            <br>
+            <!-- <button class="button">Clear</button>
+            <button class="button">Out</button> -->
+            <button id="result" onclick="clr()">Clear</button> 
+            <input id="result" type="button" value="Out" onclick="calc()">
+            <br>
+            <textarea id="Out" ></textarea>
+            </form>
+            
+            
+    </div>
+    
+
+    
+</body>
+</html>
